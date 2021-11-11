@@ -1,6 +1,47 @@
+@import "scss/variables";
 @import "scss/fonts";
+@import "scss/normalize";
 
-$color_1: #F2994A;
-$color_2: #8476AA;
-$color_3: #99EFD0;
+html {
+    font-size: 16px;
+}
 
+body {
+    font-family: "Gilroy", sans-serif;
+    background: $primary;
+    color: $color-main;
+    font-size: 1rem;
+    line-height: 1.135;
+    font-weight: 600;
+}
+
+// vh - 100vh = 300px, 10vh = 30px
+// vw - 100vw = 1600px, 10vw = 160px, 1vw = 16px;
+
+h1 {
+    font-size: 2.75rem;
+    margin: 0.45em 0;
+}
+
+h2 {
+    span {
+        color: $secondary;
+    }
+}
+
+h3 {
+    font-size: 1.125rem;
+    line-height: 1.22;
+}
+
+
+// scss
+// variables
+// mixins
+
+// css
+// отсительные единицы измерения
+// css variables (var)
+
+// images
+// растовая или векторная картинка
