@@ -366,6 +366,7 @@ html {
 }
 
 body {
+  position: relative;
   background: linear-gradient(-80deg, #3B1D60, #040D3E);
   font-family: "Gilroy", sans-serif;
   color: #8476aa;
@@ -442,6 +443,10 @@ a {
 
 .slogan {
   width: 49%;
+  margin-bottom: 100px;
+}
+.slogan__title {
+  color: #99efd0;
 }
 .slogan__text {
   margin-bottom: 40px;
@@ -454,6 +459,7 @@ a {
 }
 .slogan__video-preview {
   display: flex;
+  align-items: center;
 }
 .slogan__video-preview .image {
   margin-right: 20px;
@@ -467,6 +473,14 @@ a {
 }
 .slogan__video-preview__description {
   display: flex;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-around;
+}
+.partners__logo {
+  margin-bottom: 99px;
 }
 
 /*# sourceMappingURL=styles.css.map */

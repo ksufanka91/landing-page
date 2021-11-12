@@ -1,5 +1,11 @@
 .slogan {
     width: 49%;
+    margin-bottom: 100px;
+    //background: url("/images/slogan-running-man.png") top right no-repeat;
+
+    &__title {
+        color: $color-title;
+    }
 
     &__text {
         margin-bottom: 40px;
@@ -15,6 +21,7 @@
 
     &__video-preview {
         display: flex;
+        align-items: center;
 
         .image {
             margin-right: 20px;

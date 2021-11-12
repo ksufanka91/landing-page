@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    position: relative;
     background: linear-gradient(-80deg, #3B1D60, #040D3E); // ??
     font-family: "Gilroy", sans-serif;
     color: $color-main;
@@ -71,8 +72,12 @@ a {
 
 @import "scss/blocks/slogan";
 
+@import "scss/blocks/partners";
 
 
+
+
+//background: url("/images/slogan-running-man.png") top right no-repeat;
 
 
 
