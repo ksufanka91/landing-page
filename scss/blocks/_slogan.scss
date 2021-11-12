@@ -1,0 +1,36 @@
+.slogan {
+    width: 49%;
+
+    &__text {
+        margin-bottom: 40px;
+    }
+
+    &__buttons {
+        margin-bottom: 60px;
+    }
+
+    .button {
+        margin-right: 20px;
+    }
+
+    &__video-preview {
+        display: flex;
+
+        .image {
+            margin-right: 20px;
+        }
+
+        .text {
+            margin-bottom: 10px;
+        }
+
+        .link {
+            font-size: 0.875rem;
+            color: $color-links;
+        }
+
+        &__description {
+            display: flex;
+        }
+    }
+}

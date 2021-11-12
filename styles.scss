@@ -8,12 +8,18 @@ html {
 }
 
 body {
+    background: linear-gradient(-80deg, #3B1D60, #040D3E); // ??
     font-family: "Gilroy", sans-serif;
-    background: $primary;
     color: $color-main;
     font-size: 1rem;
     line-height: 1.135;
     font-weight: 600;
+    padding: 80px 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 // vh - 100vh = 300px, 10vh = 30px
@@ -34,6 +40,41 @@ h3 {
     font-size: 1.125rem;
     line-height: 1.22;
 }
+
+a {
+    color: #B5B5B5;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.button {
+    background: #F2994A;
+    padding: 15px 32px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    border: none;
+    cursor: pointer;
+
+    &_additional {
+        background: transparent;
+        border: 1px solid $secondary;
+    }
+
+    &_small {
+        padding: 10px 26px;
+    }
+}
+
+@import "scss/blocks/menu";
+
+@import "scss/blocks/slogan";
+
+
+
+
+
 
 // scss
 // variables
