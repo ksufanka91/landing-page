@@ -1,0 +1,30 @@
+.invest {
+    margin-bottom: 167px;
+    position: relative;
+
+    &:after {
+        content: url("/images/invest-image2.png");
+        position: absolute;
+        right: -154px;
+        top: 0;
+    }
+
+    &__text {
+        line-height: 1.75;
+        margin-bottom: 46px;
+    }
+
+    &__columns {
+        display: flex;
+    }
+
+    &__column {
+
+        width: 50%;
+        margin-right: 140px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

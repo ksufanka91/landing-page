@@ -1,0 +1,42 @@
+.help {
+    margin-bottom: 150px;
+
+    &__columns {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        margin-right: 58px;
+    }
+
+    &__title {
+        font-size: 1.625rem;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        margin-bottom: 48px;
+    }
+
+    &__row {
+        display: flex;
+    }
+
+    &__item {
+
+        margin-right: 64px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &-image {
+            margin-bottom: 16px;
+        }
+
+        &-title {
+            margin: 0 0 8px 0;
+        }
+    }
+}

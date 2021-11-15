@@ -60,7 +60,7 @@ a {
 
 .button {
     background: #F2994A;
-    padding: 15px 32px;
+    padding: 17px 32px;
     border-radius: 3px;
     color: #fff;
     font-size: 0.75rem;
@@ -91,6 +91,14 @@ a {
 @import "scss/blocks/ways";
 
 @import "scss/blocks/create-project";
+
+@import "scss/blocks/invest";
+
+@import "scss/blocks/help";
+
+@import "scss/blocks/subs";
+
+@import "scss/blocks/footer";
 
 
 //background: url("/images/slogan-running-man.png") top right no-repeat;
