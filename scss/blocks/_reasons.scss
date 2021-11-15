@@ -1,0 +1,36 @@
+.reasons {
+    margin-bottom: 120px;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__text {
+        text-align: center;
+        margin-bottom: 44px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        position: relative;
+        width: 33%;
+        margin-bottom: 40px;
+        padding: 0 15px 0 52px;
+        box-sizing: border-box;
+
+        &-title {
+            margin-top: 0;
+        }
+
+        &-image {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+}

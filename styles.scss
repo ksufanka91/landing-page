@@ -13,7 +13,7 @@ body {
     font-family: "Gilroy", sans-serif;
     color: $color-main;
     font-size: 1rem;
-    line-height: 1.135;
+    line-height: 1.375;
     font-weight: 600;
     padding: 80px 0;
 }
@@ -21,6 +21,12 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 1100px;
+    padding: 0 15px;
+
+    &__inner {
+        max-width: 940px;
+        margin: 0 auto 160px;
+    }
 }
 
 // vh - 100vh = 300px, 10vh = 30px
@@ -32,6 +38,9 @@ h1 {
 }
 
 h2 {
+    font-size: 2.625rem;
+    color: $color-title;
+
     span {
         color: $secondary;
     }
@@ -40,6 +49,7 @@ h2 {
 h3 {
     font-size: 1.125rem;
     line-height: 1.22;
+    color: $color-title;
 }
 
 a {
@@ -74,12 +84,18 @@ a {
 
 @import "scss/blocks/partners";
 
+@import "scss/blocks/reasons";
 
+@import "scss/blocks/more-info";
+
+@import "scss/blocks/ways";
+
+@import "scss/blocks/create-project";
 
 
 //background: url("/images/slogan-running-man.png") top right no-repeat;
 
-
+//Не стоит задавать блокам внешние отступы или стили, которые могут повлиять на его размер, а также позиционирование.
 
 // scss
 // variables

@@ -1,0 +1,33 @@
+.ways {
+
+    margin-bottom: 140px;
+
+    &__title {
+        text-align: center;
+        font-size: 2.25rem;
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__text {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    &__columns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__column {
+        width: 30%;
+        text-align: center;
+
+        &-title {
+            font-size: 2.625rem;
+            color: $color-title;
+            text-align: center;
+        }
+    }
+}

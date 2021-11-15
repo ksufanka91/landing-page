@@ -1,0 +1,26 @@
+.create-project {
+    position: relative;
+    margin-bottom: 160px;
+
+    &:after {
+        content: url("/images/create-project-image.png");
+        position: absolute;
+        left: -134px;
+        top: 75px;
+    }
+
+    &__title {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+
+    .button {
+        margin: 0 auto;
+        text-align: center;
+        display: block; // ?
+    }
+
+
+}
