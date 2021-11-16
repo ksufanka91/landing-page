@@ -1,5 +1,5 @@
 .subs {
-    background: #040D3E;
+    background: rgba(60, 62, 125, 0.19);
     padding: 50px 30px;
     border-radius: 5px;
     display: flex;
@@ -24,21 +24,32 @@
         }
     }
 
-    .button {
-        padding: 18px 15px;
-        width: 128px;
-        border-radius: 0 3px 3px 0;
+    &__form {
+        display: flex;
+        width: 100%;
+        max-width: 420px;
+        height: 56px;
+        margin-bottom: 16px;
+
+        .button {
+            height: 100%;
+            min-width: 128px;
+            border-radius: 0 3px 3px 0;
+        }
     }
 
-    &__form {
-        margin-bottom: 16px;
+    &__input {
+        height: 100%;
+        box-sizing: border-box;
         padding: 15px 15px;
-        background: $color-input;
-        opacity: 0.1;
+        background: $input-bg;
+        border: none;
+        color: $input-color;
+        border-radius: 3px 0 0 3px;
+        flex: 1;
 
         &::placeholder {
-            color: #fff;
-            opacity: 0.2;
+            //color: #fff;
         }
 
         &:focus::placeholder {

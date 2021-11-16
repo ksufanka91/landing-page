@@ -372,8 +372,9 @@ body {
   color: #8476aa;
   font-size: 1rem;
   line-height: 1.375;
-  font-weight: 600;
+  font-weight: 400;
   padding: 80px 0;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -498,10 +499,12 @@ a {
 
 .partners {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 99px;
 }
 .partners__logo {
-  margin-bottom: 99px;
+  margin: 0 10px 20px;
   opacity: 30%;
 }
 
@@ -613,7 +616,7 @@ a {
 .invest:after {
   content: url("/images/invest-image2.png");
   position: absolute;
-  right: -154px;
+  right: -400px;
   top: 0;
 }
 .invest__text {
@@ -624,11 +627,15 @@ a {
   display: flex;
 }
 .invest__column {
-  width: 50%;
+  width: 60%;
   margin-right: 140px;
 }
 .invest__column:last-child {
+  width: 40%;
   margin-right: 0;
+}
+.invest__image {
+  margin-right: -100px;
 }
 
 .help {
@@ -665,7 +672,7 @@ a {
 }
 
 .subs {
-  background: #040D3E;
+  background: rgba(60, 62, 125, 0.19);
   padding: 50px 30px;
   border-radius: 5px;
   display: flex;
@@ -686,22 +693,29 @@ a {
 .subs__text-additional {
   font-size: 0.875rem;
 }
-.subs .button {
-  padding: 18px 15px;
-  width: 128px;
+.subs__form {
+  display: flex;
+  width: 100%;
+  max-width: 420px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+.subs__form .button {
+  height: 100%;
+  min-width: 128px;
   border-radius: 0 3px 3px 0;
 }
-.subs__form {
-  margin-bottom: 16px;
+.subs__input {
+  height: 100%;
+  box-sizing: border-box;
   padding: 15px 15px;
-  background: #F6F6F6;
-  opacity: 0.1;
+  background: rgba(246, 246, 246, 0.1);
+  border: none;
+  color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px 0 0 3px;
+  flex: 1;
 }
-.subs__form::placeholder {
-  color: #fff;
-  opacity: 0.2;
-}
-.subs__form:focus::placeholder {
+.subs__input:focus::placeholder {
   color: transparent;
 }
 
@@ -728,13 +742,13 @@ a {
 }
 .footer__navigation-title {
   color: #ffffff;
+  font-weight: bold;
   margin-bottom: 25px;
 }
 .footer__item {
   display: block;
   margin-bottom: 16px;
   font-size: 1rem;
-  font-weight: 400;
   color: #ffffff;
 }
 .footer__item:last-child {

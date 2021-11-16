@@ -1,9 +1,11 @@
 .partners {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 99px;
 
     &__logo {
-        margin-bottom: 99px;
+        margin: 0 10px 20px;
         opacity: 30%;
     }
 }
