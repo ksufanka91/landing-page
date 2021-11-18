@@ -5,6 +5,7 @@
 
 html {
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 body {
@@ -22,11 +23,15 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 1100px;
-    padding: 0 15px;
+    padding: 0 30px;
+
+    @media (max-width: 425px) {
+        padding: 0 15px;
+    }
 
     &__inner {
         max-width: 940px;
-        margin: 0 auto 160px;
+        margin: 0 auto;
     }
 }
 
@@ -68,6 +73,7 @@ a {
     letter-spacing: 1.5px;
     border: none;
     cursor: pointer;
+    white-space: nowrap;
 
     &_additional {
         background: transparent;
@@ -77,6 +83,44 @@ a {
     &_small {
         padding: 10px 26px;
     }
+}
+
+.hidden-desktop {
+    @media (min-width: 769px) {
+        display: none !important;
+    }
+}
+
+.hidden-tablet {
+    @media (max-width: 768px) {
+        display: none !important;
+    }
+}
+
+.hidden-mobile {
+    @media (max-width: 425px) {
+        display: none !important;
+    }
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
 }
 
 @import "scss/blocks/menu";

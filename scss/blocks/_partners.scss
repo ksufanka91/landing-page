@@ -4,8 +4,17 @@
     justify-content: space-around;
     margin-bottom: 99px;
 
+    @media (max-width: 768px) {
+        margin-bottom: 50px;
+    }
+
+
     &__logo {
         margin: 0 10px 20px;
         opacity: 30%;
     }
+
 }
+
+
+

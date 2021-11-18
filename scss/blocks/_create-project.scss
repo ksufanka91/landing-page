@@ -3,23 +3,29 @@
     margin-bottom: 400px;
 
     &:after {
-        content: url("/images/create-project-image.png");
+        content: '';
         position: absolute;
-        left: -134px;
+        left: 50%;
         top: 75px;
+        transform: translateX(-50%);
+        background: url("/images/create-project-image.png") no-repeat center center;
+        width: 1203px;
+        height: 492px;
     }
 
     &__title {
         margin: 0 auto 46px;
         width: 80%;
         text-align: center;
+
+        @media (max-width: 425px) {
+            width: 100%;
+        }
     }
 
     .button {
+        display: block;
         margin: 0 auto;
         text-align: center;
-        display: block; // ?
     }
-
-
 }

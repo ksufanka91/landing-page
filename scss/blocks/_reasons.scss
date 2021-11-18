@@ -1,6 +1,10 @@
 .reasons {
     margin-bottom: 120px;
 
+    @media (max-width: 768px) {
+        margin-bottom: 50px;
+    }
+
     &__title {
         text-align: center;
     }
@@ -22,6 +26,15 @@
         margin-bottom: 40px;
         padding: 0 15px 0 52px;
         box-sizing: border-box;
+
+        @media (max-width: 660px) {
+            width: 50%;
+        }
+
+        @media (max-width: 425px) {
+            width: 100%;
+        }
+
 
         &-title {
             margin-top: 0;
