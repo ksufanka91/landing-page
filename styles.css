@@ -528,7 +528,7 @@ a {
   margin-bottom: 100px;
 }
 .slogan:after {
-  content: url("/images/slogan-running-man.png");
+  content: url("images/slogan-running-man.png");
   position: absolute;
   top: -20px;
   right: -140px;
@@ -803,7 +803,7 @@ a {
   left: 50%;
   top: 75px;
   transform: translateX(-50%);
-  background: url("/images/create-project-image.png") no-repeat center center;
+  background: url("images/create-project-image.png") no-repeat center center;
   width: 1203px;
   height: 492px;
 }
@@ -833,7 +833,7 @@ a {
   }
 }
 .invest:after {
-  content: url("/images/invest-image2.png");
+  content: url("images/invest-image2.png");
   position: absolute;
   right: -400px;
   top: 0;
