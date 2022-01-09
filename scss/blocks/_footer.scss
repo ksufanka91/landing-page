@@ -5,6 +5,10 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 95px;
+
+        @media (max-width: 425px) {
+            margin-bottom: 50px;
+        }
     }
 
     &__title {
@@ -27,6 +31,10 @@
 
         @media (max-width: 600px) {
            flex-wrap: wrap;
+        }
+
+        @media (max-width: 425px) {
+            margin-bottom: 50px;
         }
 
         &-title {
